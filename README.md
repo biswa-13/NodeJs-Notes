@@ -4,5 +4,5 @@ It will work as a nodeJS notes for reference.
 ###### How the code in nodejs runs.
 ![image](https://user-images.githubusercontent.com/8691837/115772225-7a925b80-a3cc-11eb-9f2e-230e5904c652.png)
 
-### Is NodeJs is Single Threading or Multiple Threading:
+#### Is NodeJs is Single Threading or Multiple Threading:
 * Though the NodeJs is said to be single threaded but there are some pre-defined functions available in it which runs in multi threaded way with the help of UV library.
