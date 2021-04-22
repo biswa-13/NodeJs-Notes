@@ -6,3 +6,8 @@ It will work as a nodeJS notes for reference.
 
 #### Is NodeJs is Single Threading or Multiple Threading:
 * Though the NodeJs is said to be single threaded but there are some pre-defined functions available in it which runs in multi threaded way with the help of UV library.
+
+
+##### How Event Loop Works
+![image](https://user-images.githubusercontent.com/8691837/115775605-ba5b4200-a3d0-11eb-94e1-9eda05c4c3dc.png)
+
