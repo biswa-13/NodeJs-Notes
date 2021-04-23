@@ -40,5 +40,8 @@ We can enhance the performance of the Node application in two ways <br/>
 ![image](https://user-images.githubusercontent.com/8691837/115836962-b44b7c80-a435-11eb-9aeb-88082b18b88f.png)
 * Clustering demo using the core cluster module (https://github.com/biswa-13/NodeJs-Notes/blob/main/3_CoreClusteringDemo.js) , it is not advicable in real-life scenario, it's good only for the study prupose.
 
-
+#### 1.4. Using Worker Threads:
+![image](https://user-images.githubusercontent.com/8691837/115878149-d6f58980-a465-11eb-80df-afea5e7862bd.png)
+##### Worker-thread architecture
+* Follow this short tutorial for setup and execution (https://www.youtube.com/watch?v=JZgQeS03d-U&list=PLKu4a5OPnvu6-u8-w7D_QAQg2FmCCvC5-&index=31)
 
