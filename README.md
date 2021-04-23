@@ -11,3 +11,11 @@ It will work as a nodeJS notes for reference.
 ##### How Event Loop Works
 ![image](https://user-images.githubusercontent.com/8691837/115775605-ba5b4200-a3d0-11eb-94e1-9eda05c4c3dc.png)
 
+### NodeJs Performance Enhancements :
+We can enhance the performance of the Node application in two ways
+1 - By Clustering
+2 - Through Worker Threads
+* If the application includes complex processing its always advicable to start the node application in Clustering mode, in which their will be multiple copy of the same application created and runs, where as in 
+![image](https://user-images.githubusercontent.com/8691837/115824343-69296d80-a425-11eb-949b-2a2a1fd6690e.png)
+
+
