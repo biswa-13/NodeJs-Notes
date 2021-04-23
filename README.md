@@ -22,12 +22,20 @@ We can enhance the performance of the Node application in two ways <br/>
 
 ![image](https://user-images.githubusercontent.com/8691837/115834653-15258580-a433-11eb-9300-81308ca57137.png)
 ###### img: Demonstaration of Single Thread Problem
+* The flow of a node applicatioin without enabling the cluster looks like below, in which whenevere the node application starts and the index.js file gets executted a Single Node Instance used to be created and it is responssible for handling all the operations/requests. Which may lead to above problem.
+
+![image](https://user-images.githubusercontent.com/8691837/115837372-22903f00-a436-11eb-9d85-f67ae19b0a45.png)
+###### Single Threaded Node application execution 
 
 #### 1. Clustering in Node:
-* Clustering can be enabled in the node by  "fork()" available in the "cluster" module which is a default pkg available and does not needs any installation.
+* Clustering can be enabled in the node by  "cluster.fork()" available in the "cluster" module which is a default pkg available and does not needs any installation.
 
 
 ![image](https://user-images.githubusercontent.com/8691837/115836052-a47f6880-a434-11eb-864d-4fde23a68a46.png)
 ###### Node Clustering Architecture
+* Whenever the node application runs with the clustering below depicted execution happends, in which first the index.js gets executed and it creates a "Cluster Manager" and this "Cluster Manager" is responssible to run multiple copies of the index.js in "Worker Threads" with the help of the "cluster.fork()".
+
+![image](https://user-images.githubusercontent.com/8691837/115836962-b44b7c80-a435-11eb-9aeb-88082b18b88f.png)
+
 
 
