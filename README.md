@@ -36,6 +36,7 @@ We can enhance the performance of the Node application in two ways <br/>
 * Whenever the node application runs with the clustering below depicted execution happends, in which first the index.js gets executed and it creates a "Cluster Manager" and this "Cluster Manager" is responssible to run multiple copies of the index.js in "Worker Threads" with the help of the "cluster.fork()".
 
 ![image](https://user-images.githubusercontent.com/8691837/115836962-b44b7c80-a435-11eb-9aeb-88082b18b88f.png)
+* Clustering demo using the core cluster module (https://github.com/biswa-13/NodeJs-Notes/blob/main/3_CoreClusteringDemo.js) , it is not advicable in real-life scenario, it's good only for the study prupose.
 
 
 
