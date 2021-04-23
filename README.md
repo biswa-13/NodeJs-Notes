@@ -23,4 +23,9 @@ We can enhance the performance of the Node application in two ways <br/>
 ![image](https://user-images.githubusercontent.com/8691837/115834653-15258580-a433-11eb-9300-81308ca57137.png)
 ###### img: Demonstaration of Single Thread Problem
 
+#### 1. Clustering in Node:
+* Clustering can be enabled in the node by  "fork()" available in the "cluster" module which is a default pkg available and does not needs any installation.
+![image](https://user-images.githubusercontent.com/8691837/115836052-a47f6880-a434-11eb-864d-4fde23a68a46.png)
+###### Node Clustering Architecture
+
 
