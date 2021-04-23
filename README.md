@@ -20,4 +20,7 @@ We can enhance the performance of the Node application in two ways <br/>
 
 #### Demonstaration of Single Thread Problem (https://github.com/biswa-13/NodeJs-Notes/blob/main/2_Node_SingleThreadRunningProblemDemo.js)
 
+![image](https://user-images.githubusercontent.com/8691837/115834653-15258580-a433-11eb-9300-81308ca57137.png)
+###### img: Demonstaration of Single Thread Problem
+
 
